@@ -1,0 +1,75 @@
+header {
+	text-align: center;
+}
+.logo {
+	width: 15%;
+	height: auto;
+}
+.row12 {
+	width: 100%;
+}
+nav ul li a {
+	text-decoration: none;
+	/*clear: both;
+	float: left;*/
+}
+li {
+	display: inline;
+}
+body {
+	font-family: Bangla MN;
+	text-align: center;
+	/*background-image: url(images/execphoto.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;*/
+}
+footer {
+	font-size: 12px;
+}
+img {
+	width: 50%;
+}
+form {
+	font-family: Bangla MN;
+}
+#search {
+	text-align: center;
+}
+.searchbar {
+	padding-left: 35px;
+}
+.tableheader {
+	text-decoration: underline;
+	font-weight: bold;
+}
+table{
+	width: 100%;
+	padding-left: 100px;
+	padding-right: 100px;
+	font-size: 15px;
+}
+td {
+	text-align: center;
+	border: 1px solid black;
+	padding-top: 5px;
+}
+.one {
+	background-color: #5CACEE;
+}
+.two {
+	background-color: #F0F8FF;
+}
+.div12 {
+	width: 100%;
+}
+.headshots {
+	width: 15%;
+	height: auto;
+	/*float: left;*/
+	/*clear: both;*/
+	/*padding-left: 100px;*/
+}
+
+}
