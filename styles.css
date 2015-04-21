@@ -18,7 +18,7 @@ li {
 }
 body {
 	font-family: Bangla MN;
-	text-align: center;
+	/*text-align: center;*/
 	/*background-image: url(images/execphoto.jpg);
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -27,9 +27,43 @@ body {
 }
 footer {
 	font-size: 12px;
+	text-align: center;
+}
+.photogallery {
+	padding-left: 25px;
 }
 img {
-	width: 50%;
+	width: 100%;
+	padding-bottom: 30px;
+}
+.photodescript {
+	text-align: center;
+	font-size: 14px;
+}
+h2 {
+	text-decoration: underline;
+	text-align: center;
+	color: red;
+}
+h3 {
+	/*float: left;*/
+}
+.titles {
+	text-align: center;
+	text-decoration: underline;
+}
+/*.info {
+	text-align: center;
+}*/
+.Upcoming {
+	padding-left: 25px;
+}
+.center {
+	text-align: center;
+}
+.backtotop {
+	float: right;
+	/*width: 100%;*/
 }
 form {
 	font-family: Bangla MN;
@@ -71,5 +105,44 @@ td {
 	/*clear: both;*/
 	/*padding-left: 100px;*/
 }
-
+.row{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap; 
+}
+.col-1{
+  width: 8.33%;
+}
+.col-2{
+  width: 16.67%;
+}
+.col-3{
+  width: 25%;
+}
+.col-4{
+  width: 33.33%;
+}
+.col-5{
+  width: 41.67%;
+}
+.col-6{
+  width: 50%;
+}
+.col-7{
+  width: 58.33%
+}
+.col-8{
+  width: 66.67%;
+}
+.col-9{
+  width: 75%;
+}
+.col-10{
+  width: 83.33%;
+}
+.col-11{
+  width: 91.67%;
+}
+.col-12{
+  width: 100%;
 }
